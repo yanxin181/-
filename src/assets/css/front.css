@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?utwk5u');
+    src:  url('../fonts/icomoon.eot?utwk5u#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?utwk5u') format('truetype'),
+      url('../fonts/icomoon.woff?utwk5u') format('woff'),
+      url('../fonts/icomoon.svg?utwk5u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.front{
+    background: url(../imgs/bgc1.jpg);
+    
+}
+.w{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.shortcut{
+    height: 62px;
+    border-bottom: 2px solid #e0e6f2;
+    
+}
+.shortcut:hover{
+    background-color: #fff;
+    box-shadow: 2px -2px 40px 2px #000;
+}
+
+.fl{
+    float: left;
+    height: 62px;
+}
+.fl h1{
+    float: left;
+    width: 180px;
+    height: 62px;
+    line-height: 62px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #253554;
+    font-family: '站酷高端黑';
+}
+.fl ul{
+    float: left;
+}
+.fl ul li{
+    float: left;
+    padding: 0 15px;
+    height: 62px;
+    line-height: 62px;
+    
+}
+.fl ul li a{
+    font-size: 16px;
+    color: #fff;
+}
+
+.fl ul li a:hover{
+    color: #0052d9;
+}
+.fr{
+    float: right;
+    height: 62px;
+}
+.fr ul li{
+    float: left;
+    padding: 0 15px;
+    height: 62px;
+    line-height: 62px;  
+}
+.fr ul li a{
+    font-size: 16px;
+    color: #fff;
+}
+.china::before{
+    content: '\e904';
+    font-family: 'icomoon';
+    padding-right: 10px;
+
+}
+.china::after{
+    content: '\e900';
+    font-family: 'icomoon';
+
+}
+.fr ul li:nth-child(n+6){
+    padding-right: 0;
+}
+.fr ul li a button{
+    width: 128px;
+    height: 62px;
+    background-color: #0052d9;
+    font-size: 16px;
+    color: #fff;
+}
+.fr ul li a:hover{
+    color: #0052d9;
+}
+.fr ul li a button:hover{
+    background-color: #2670e8;
+}
+.fr ul li span{
+    display: inline-block;
+    width: 72px;
+    height: 62px;
+    background-color: #fafafc;
+}
+.fr ul li span::before{ 
+    content: '\e905';
+    font-family: 'icomoon';
+    font-size: 22px;
+    color: #0052d9;
+    line-height: 62px;
+    padding-left: 24px;
+}
+.shortcut:hover a{
+    color: #000;
+}
+
+a:hover{
+    color: #0052d9;
+}
+
+.midd_title{
+    display: inline-block;
+    position: absolute;
+    height: 75px;
+    width: 1200px;
+    /*background-color: rgb(234, 31, 65);*/
+    margin: 300px 170px;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 50px;
+    font-family: 'HYshangweishoushuW';
+    color: #fff;
+    text-shadow: 5px 7px 5px #003fa5;
+}
+
